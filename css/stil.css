@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+body{
+margin:0;
+padding:0;
+background-color:black;
+font-family:"lucide grande", sans-serif;
+}
+
+#header{
+margin:0 auto;
+width:800px;
+height:50%;
+background:transparent url('../pict/1.jpg') top left no-repeat;
+background-size: 100% 100%;
+}
+.titlu_site{
+font-family:"Kaushan Script", cursive;
+font-size:20px;
+color:white;
+left:20px;
+position:relative;
+top :350px;
+}
+#container{
+background-color:grey;
+margin: 0 auto;
+width:1200px;
+padding:20px;
+}
+#content{
+background-color:white;
+margin:0 auto;
+padding:10px;
+}
+#meniu{
+height:40px;
+background-color:black;
+margin:0 15px;
+padding:5px 0;
+
+}
+#meniu ul{
+margin:0;
+padding:5px;
+height:25px;
+}
+#meniu ul li{
+list-style:none;
+display: inline;
+}
+#meniu ul li a:link, #meniu ul li a:active, #meniu ul li a:visited{
+color:white;
+padding:10px 7px 10px 7px;
+text-decoration:none;
+font-weight:bold;
+}
+
+#meniu ul li a:hover{
+color:white;
+background-color:orange;
+}
+#col_st{
+margin:0 auto;
+padding:2px;
+width:48%;
+float:left;
+background-color:white;
+}
+#col_dr{
+margin:0 auto;
+padding:2px;
+width:48%;
+float:left;
+
+}
+#col_clear{
+clear:both;
+}
